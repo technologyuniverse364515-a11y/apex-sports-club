@@ -9,7 +9,7 @@ function Index() {
   // Static sports club site lives in /public — redirect to it.
   useEffect(() => {
     if (typeof window !== "undefined") {
-      window.location.replace("/index.html");
+      window.location.replace("/apex-sports-club/club.html");
     }
   }, []);
   return (

@@ -37,9 +37,9 @@
 
     const nav = $("[data-nav-links]");
     if (nav) {
-      const here = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+      const here = (location.pathname.split("/").pop() || "club.html").toLowerCase();
       const links = [
-        { label: T.navHome,    href: "index.html"   },
+        { label: T.navHome,    href: "club.html"   },
         { label: T.navAbout,   href: "about.html"   },
         { label: T.navSports,  href: "sports.html"  },
         { label: T.navGallery, href: "gallery.html" },
@@ -86,7 +86,7 @@
     const explore = $("[data-footer-explore]");
     if (explore) {
       explore.innerHTML = [
-        ["index.html",   T.navHome],
+        ["club.html",   T.navHome],
         ["about.html",   T.navAbout],
         ["sports.html",  T.navSports],
         ["gallery.html", T.navGallery],
